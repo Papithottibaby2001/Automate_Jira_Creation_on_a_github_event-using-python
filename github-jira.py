@@ -11,11 +11,11 @@ app = Flask(__name__)
 @app.route('/createJira', methods=['POST'])
 def createJira():
 
-    url = "https://veeramallaabhishek.atlassian.net/rest/api/3/issue"
+    url = "https://pbaby9784.atlassian.net//rest/api/3/issue"
 
     API_TOKEN=""
 
-    auth = HTTPBasicAuth("", API_TOKEN)
+    auth = HTTPBasicAuth("pbaby9784@gmail.com", API_TOKEN)
 
     headers = {
         "Accept": "application/json",
